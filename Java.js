@@ -19,6 +19,7 @@ if(artista == "metallica"){
         let montototal = `${cantidadentradas1*50000}`
         alert("El monto total a pagar es de =" + " " + "$" + montototal)
         console.log(nombre + " " + "comprara un total de" + " " + cantidadentradas1 + " " + "entradas" + ". " +  "Debe abonar un total de" + " " + "$" + montototal)
+        alert("Por favor continua con la compra")
     }else {
         alert("Solo mayores de edad pueden asistir al evento, lo sentimos")
     }
@@ -29,4 +30,5 @@ if(artista == "taylor swift"){
         let montototal = `${cantidadentradas2*100000}`
         alert( "El monto total a pagar es de =" + " " + "$" + montototal)
         console.log(nombre + " " + "comprara un total de" + " " + cantidadentradas2 + " " + "entradas" + ". " +  "debe abonar un total de" + " " + "$" + montototal)
+        alert("Por favor continua con la compra")
 }
