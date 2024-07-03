@@ -17,8 +17,8 @@ if(artista == "metallica"){
     if(edad >= 18){
         let cantidadentradas1 = prompt("La entrada cuesta un total de $50.000 ¿Cuantas entradas desea comprar?")
         let montototal = `${cantidadentradas1*50000}`
-        alert( "El monto total a pagar es de =" + " " + "$" + montototal)
-        console.log(nombre + " " + "Debe abonar un total de" + " " + "$" + montototal)
+        alert("El monto total a pagar es de =" + " " + "$" + montototal)
+        console.log(nombre + " " + "comprara un total de" + " " + cantidadentradas1 + " " + "entradas" + ". " +  "Debe abonar un total de" + " " + "$" + montototal)
     }else {
         alert("solo mayores de edad pueden asistir al evento, lo sentimos")
     }
@@ -28,7 +28,7 @@ if(artista == "taylor swift"){
     let cantidadentradas2 = prompt("La entrada cuesta un total de $100.000 ¿Cuantas entradas desea comprar?")
         let montototal = `${cantidadentradas2*100000}`
         alert( "El monto total a pagar es de =" + " " + "$" + montototal)
-        console.log(nombre + " " + "debe abonar un total de" + " " + "$" + montototal)
+        console.log(nombre + " " + "comprara un total de" + " " + cantidadentradas2 + " " + "entradas" + ". " +  "debe abonar un total de" + " " + "$" + montototal)
 }
 
 alert ("¡Gracias por su visita!")  
