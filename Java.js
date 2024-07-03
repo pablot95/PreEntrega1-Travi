@@ -31,4 +31,4 @@ if(artista == "taylor swift"){
         console.log(nombre + " " + "comprara un total de" + " " + cantidadentradas2 + " " + "entradas" + ". " +  "debe abonar un total de" + " " + "$" + montototal)
 }
 
-alert ("¡Gracias por su visita!")  
+alert ("Por favor continue con la compra")  
